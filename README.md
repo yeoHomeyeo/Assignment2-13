@@ -4,25 +4,25 @@ Comparison between Serverless Framework and Terraform as tools for IaC
 ## Make a comparison between Serverless Framework and Terraform as tools for IaC by answering:
 
 ### What type of infrastructure and application deployments are each tool best suited for?
-### Serverless framework:
-- Type of infrastructure
-  - AWS Lambda, API Gateway, DynamoDB, S3
-  - Event-driven architectures
-  - Microservices and function-as-a-service (FaaS) deployments
-  - Applications that require rapid development and deployment cycles
-- Applications
-  - Real-time data processing
-  - Backend services
-  - Applications with variable workloads
-### Terraform:
-- Type of infrastructure
-  - Multi-cloud and hybrid cloud infrastructure.
-  - Complex, multi-tier architectures (e.g., VPCs, EC2 instances, RDS, Kubernetes clusters).
-  - Infrastructure that requires detailed provisioning and configuration.
-  - Long-term, stable infrastructure deployments.
-- Applications
-  - Data centers, networking, and storage solutions
-  - Applications requiring full control over infrastructure components
+- Serverless framework:
+  - Type of infrastructure
+    - AWS Lambda, API Gateway, DynamoDB, S3
+    - Event-driven architectures
+    - Microservices and function-as-a-service (FaaS) deployments
+    - Applications that require rapid development and deployment cycles
+  - Applications
+    - Real-time data processing
+    - Backend services
+    - Applications with variable workloads
+- Terraform:
+  - Type of infrastructure
+    - Multi-cloud and hybrid cloud infrastructure.
+    - Complex, multi-tier architectures (e.g., VPCs, EC2 instances, RDS, Kubernetes clusters).
+    - Infrastructure that requires detailed provisioning and configuration.
+    - Long-term, stable infrastructure deployments.
+  - Applications
+    - Data centers, networking, and storage solutions
+    - Applications requiring full control over infrastructure components
 
 ### How do their primary objectives differ?
 - Serverless Framework
