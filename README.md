@@ -36,9 +36,38 @@ Comparison between Serverless Framework and Terraform as tools for IaC
   - Designed for multi-cloud and hybrid cloud environments
     
 ### How do they differ in terms of learning curve and ease of use for developers or DevOps teams?
+- Serverless Framework
+  - Learning Curve
+    - Easier for developers familiar with serverless concepts
+  - Ease of Use
+    - Simple YAML-based configuration
+    - Abstracts away much of the underlying infrastructure
+    - Ideal for developers who want to focus on application logic rather than infrastructure
+- Terraform
+ - Learning Curve
+    - Steeper due to its broader scope and complexity
+  - Ease of Use
+    - Requires understanding of HCL (HashiCorp Configuration Language)
+    - More suited for DevOps teams with infrastructure expertise
+    - Provides detailed control, which can be overwhelming for beginners
 
 ### What are the differences in how each tool handles state tracking and deployment changes?
-
+- Serverless Framework
+  - State Tracking
+    - Does not natively track state
+    - Relies on the cloud provider's state management
+  - Deployment changes
+    -  Automatically handles updates to serverless resources
+    -  Focuses on deploying application code and serverless configurations.
+    -  Limited visibility into infrastructure changes
+- Terraform
+  - State Tracking
+    -  Uses a state file (terraform.tfstate) to track the current state of infrastructure
+  - Deployment changes
+    -  Plans and applies changes incrementally, showing a detailed diff of what will be modified
+    -  Provides full visibility into infrastructure changes
+    -  Requires careful management of the state file (e.g., remote state storage)
+  
 ### In what scenarios would you recommend using Serverless Framework over Terraform, and vice versa?
 
 ### Are there scenarios where using both together might be beneficial?
