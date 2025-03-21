@@ -15,10 +15,14 @@ Comparison between Serverless Framework and Terraform as tools for IaC
   - Backend services
   - Applications with variable workloads
 ### Terraform:
-- Multi-cloud and hybrid cloud infrastructure.
-- Complex, multi-tier architectures (e.g., VPCs, EC2 instances, RDS, Kubernetes clusters).
-- Infrastructure that requires detailed provisioning and configuration.
-- Long-term, stable infrastructure deployments.
+- Type of infrastructure
+  - Multi-cloud and hybrid cloud infrastructure.
+  - Complex, multi-tier architectures (e.g., VPCs, EC2 instances, RDS, Kubernetes clusters).
+  - Infrastructure that requires detailed provisioning and configuration.
+  - Long-term, stable infrastructure deployments.
+- Applications
+  - Data centers, networking, and storage solutions
+  - Applications requiring full control over infrastructure components
 
 ### How do their primary objectives differ?
 
