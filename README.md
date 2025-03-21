@@ -25,7 +25,16 @@ Comparison between Serverless Framework and Terraform as tools for IaC
   - Applications requiring full control over infrastructure components
 
 ### How do their primary objectives differ?
+- Serverless Framework
+  - Primary Objective: Simplify the deployment and management of serverless applications
+  - Focuses on abstracting away infrastructure complexity to allow developers to focus on writing code
+  - Optimized for event-driven, serverless architectures.
 
+- Terraform
+  - Primary Objective: Provide a consistent and declarative way to manage infrastructure across multiple cloud providers
+  - Focuses on infrastructure provisioning and management, offering fine-grained control over resources
+  - Designed for multi-cloud and hybrid cloud environments
+    
 ### How do they differ in terms of learning curve and ease of use for developers or DevOps teams?
 
 ### What are the differences in how each tool handles state tracking and deployment changes?
