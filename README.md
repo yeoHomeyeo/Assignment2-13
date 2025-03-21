@@ -44,7 +44,7 @@ Comparison between Serverless Framework and Terraform as tools for IaC
     - Abstracts away much of the underlying infrastructure
     - Ideal for developers who want to focus on application logic rather than infrastructure
 - Terraform
- - Learning Curve
+  - Learning Curve
     - Steeper due to its broader scope and complexity
   - Ease of Use
     - Requires understanding of HCL (HashiCorp Configuration Language)
@@ -69,6 +69,33 @@ Comparison between Serverless Framework and Terraform as tools for IaC
     -  Requires careful management of the state file (e.g., remote state storage)
   
 ### In what scenarios would you recommend using Serverless Framework over Terraform, and vice versa?
+- Use Serverless Framework
+  - Building serverless applications (e.g., Lambda functions, API Gateway)
+  - Focus on application logic rather than infrastructure
+  - Rapid development and deployment cycles
+  - Application is event-driven and uses managed services (e.g., DynamoDB, S3)
+- Use Terraform
+  - Need to manage complex, multi-tier infrastructure
+  - Working in a multi-cloud or hybrid cloud environment
+  - Require fine-grained control over infrastructure provisioning
+  - Application involves long-term, stable infrastructure (e.g., VPCs, EC2, RDS)
+
 
 ### Are there scenarios where using both together might be beneficial?
+Yes. These are some scenarios:
 
+- Hybrid Architectures:
+  - Terraform to manage the underlying infrastructure (e.g., VPCs, networking, databases)
+  - Serverless Framework to deploy serverless applications on top of that infrastructure
+    
+- Multi-Cloud Deployments:
+  - Terraform to provision resources across multiple clouds
+  - Serverless Framework to deploy serverless functions on specific cloud providers
+
+- Separation of work:
+  - DevOps teams manage infrastructure with Terraform
+  - Developers focus on serverless application logic with the Serverless Framework
+  
+- Complex Workflows:
+  - Use Terraform for infrastructure orchestration
+  - Serverless Framework for deploying microservices or event-driven components
